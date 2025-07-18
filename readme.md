@@ -30,30 +30,6 @@ I’m using this space as both a **learning diary** and a **project showcase**.
 
 ---
 
-## 📁 Project Structure
-
-CV-Projects/
-├── README.md
-├── Gesture Volume Control/
-├── Face Mesh Detection/
-├── Pose Estimation/
-├── Object Detection/
-├── License Plate Recognition/
-├── ...
-└── utils/
-
-yaml
-Copy
-Edit
-
-Each folder contains a self-contained project with its own:
-- Code and notebooks
-- Sample input/output
-- `requirements.txt`
-- (Optional) README with explanations
-
----
-
 ## 🛠️ Tools & Technologies
 
 - Python
@@ -84,8 +60,9 @@ Each folder contains a self-contained project with its own:
 
 - [ ] Virtual Mouse using Hand Gestures
 
+- [ ] Gesture Based Calculator
 
-Feel free to suggest more!
+- [ ] Real time sign Detection
 
 ---
 
