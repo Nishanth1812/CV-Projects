@@ -1,78 +1,67 @@
-# 🧠 Computer Vision Projects Repository
+# Computer Vision Projects Repository
 
 Welcome to my personal Computer Vision playground! This repository is a growing collection of my implementations, experiments, and full-fledged projects in the field of Computer Vision — ranging from basic image processing to deep learning-based applications.
 
-> 🚧 This repo is continuously updated as I learn, build, and break things in the CV universe.
+> This repository is continuously updated as I learn and build new projects.
 
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 
-- [🔍 Overview](#-overview)
-- [📁 Project Structure](#-project-structure)
-- [🛠️ Tools & Technologies](#️-tools--technologies)
-- [🚀 Projects](#-projects)
-- [📌 To-Do / Upcoming Ideas](#-to-do--upcoming-ideas)
-- [📬 Contact](#-contact)
+- [Overview](#overview)
+- [Tools & Technologies](#tools--technologies)
+- [Projects](#projects)
+- [To-Do / Upcoming Ideas](#to-do--upcoming-ideas)
+- [Contact](#contact)
 
 ---
 
-## 🔍 Overview
+## Overview
 
 This repository contains all of my hands-on work in Computer Vision, including:
 
-- 📸 Image processing techniques (OpenCV, skimage)
-- 🧠 Deep learning models for vision tasks (CNNs, object detection, segmentation)
-- 👁️ Real-time applications (gesture control, face detection, pose estimation)
-- 📦 Tools & utilities (preprocessors, annotators, pipelines)
+- Image processing techniques using OpenCV
+- Deep learning models for vision tasks (CNNs, object detection, segmentation)
+- Real-time applications (gesture control, face detection, pose estimation)
 
 I’m using this space as both a **learning diary** and a **project showcase**.
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
-- Python
-- OpenCV
-- MediaPipe
-- NumPy & Matplotlib
-- PyTorch / TensorFlow
-- YOLO / SSD / Haar Cascades
-- Flask / Streamlit (for app interfaces)
-- Jupyter Notebooks
-
----
-
-## 🚀 Projects
-
-| Project | Description | Status |
-|--------|-------------|--------|
-| **Gesture Volume Control** | Control system volume using hand gestures and finger distance. | ✅ Completed |
-| **Coming Soon** | More cool ideas brewing... | 🧠 Brainstorming |
-
-> You can find individual READMEs inside each folder with implementation details and usage instructions.
+- **Programming Language:** Python
+- **Computer Vision:** OpenCV, MediaPipe
+- **Data Science:** NumPy, Matplotlib
+- **Deep Learning:** PyTorch, TensorFlow
+- **Object Detection:** YOLO
+- **Web Frameworks:** Flask, Streamlit
+- **Development Environment:** Jupyter Notebooks
 
 ---
 
+## Projects
 
-
-## 📌 To-Do / Upcoming Ideas
-
-- [ ] Virtual Mouse using Hand Gestures
-
-- [ ] Gesture Based Calculator
-
-- [ ] Real time sign Detection
+| Project                               | Description                                                                                                      | Status      |
+| ------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ----------- |
+| **Gesture Volume Control**            | Control system volume using hand gestures and finger distance.                                                   | Completed   |
+| **Virtual Mouse**                     | A virtual mouse that can be controlled using hand movements and small gestures.                                  | Completed   |
+| **Gesture Based Calculator**          | A calculator application that detects hand gestures and converts them into mathematical operations in real time. | In Progress |
+| **Real-time Sign Language Detection** | A real-time application with UI that detects ASL hand gestures and converts them into words and sentences.       | In Progress |
 
 ---
 
-## 📬 Contact
+## To-Do / Upcoming Ideas
 
-Have feedback, ideas, or just want to geek out about vision?
+1. **Gesture Based Calculator**
+2. **Real-time Sign Language Detection**
 
-- 📧 Email: [dn8.porps@gmail.com]
-- 🧑‍💻 Portfolio: [coming soon]
-- LinkedIn: [nishanth-devabathini](https://www.linkedin.com/in/nishanth-devabathini-738a8a212/)
+---
 
+## Contact
 
+Have feedback, ideas, or just want to discuss computer vision?
 
+- **Email:** dn8.porps@gmail.com
+- **Portfolio:** [Resume](https://github.com/Nishanth1812/My_ACM_Work/blob/main/Ressume.pdf)
+- **LinkedIn:** [nishanth-devabathini](https://www.linkedin.com/in/nishanth-devabathini-738a8a212/)

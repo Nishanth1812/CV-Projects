@@ -1,13 +1,14 @@
 import hand_tracking_module as ht 
 import cv2 
 import time
-import requests
-import imutils
+# import requests
+# import imutils
 import numpy as np
 import math
-from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
+from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume # type: ignore
 from ctypes import cast, POINTER
-from comtypes import CLSCTX_ALL
+from comtypes import CLSCTX_ALL # type: ignore
+
 ###############################
 # Setting the width and height of the camera capture
 w_cam, h_cam = 640, 480
