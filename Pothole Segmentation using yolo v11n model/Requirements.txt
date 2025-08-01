@@ -1,0 +1,8 @@
+streamlit
+ultralytics==8.1.0
+opencv-python
+pillow
+numpy
+requests
+torch
+torchvision
