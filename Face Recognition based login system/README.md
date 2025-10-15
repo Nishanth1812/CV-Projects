@@ -1,0 +1,3 @@
+-> Use openface model from deepface 
+-> Use the auth code from the previous project 
+-> Complete by wednesdsy
