@@ -11,4 +11,5 @@ dependencies = [
     "flask-jwt-extended>=4.7.1",
     "opencv-python>=4.12.0.88",
     "python-dotenv>=1.1.1",
+    "tf-keras>=2.20.1",
 ]
