@@ -7,9 +7,14 @@ requires-python = ">=3.11"
 dependencies = [
     "deepface>=0.0.95",
     "flask>=3.1.2",
+    "flask-compress>=1.20",
     "flask-cors>=6.0.1",
     "flask-jwt-extended>=4.7.1",
     "opencv-python>=4.12.0.88",
+    "pgvector>=0.2.5",
+    "psycopg2>=2.9.11",
+    "psycopg2-binary>=2.9.10",
     "python-dotenv>=1.1.1",
     "tf-keras>=2.20.1",
+    "waitress>=3.0.2",
 ]

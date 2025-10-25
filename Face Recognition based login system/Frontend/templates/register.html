@@ -6,7 +6,8 @@
     <title>Nebula Lock · Register</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700&display=swap" rel="stylesheet"></noscript>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/auth.css') }}">
     <script defer src="{{ url_for('static', filename='js/auth.js') }}"></script>
 </head>
@@ -35,6 +36,10 @@
                 </div>
                 <div class="panel-content grid-two">
                     <form id="registerForm" class="card" autocomplete="off">
+                        <div class="form-group">
+                            <label for="registerEmail">Email</label>
+                            <input type="email" id="registerEmail" name="email" placeholder="your.email@example.com" required>
+                        </div>
                         <div class="form-group">
                             <label for="registerUsername">Username</label>
                             <input type="text" id="registerUsername" name="username" placeholder="Choose a handle" required>

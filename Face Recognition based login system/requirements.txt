@@ -1,0 +1,11 @@
+deepface
+flask
+flask-compress
+flask-cors
+flask-jwt-extended
+opencv-python
+pgvector
+psycopg2
+psycopg2-binary
+python-dotenv
+waitress

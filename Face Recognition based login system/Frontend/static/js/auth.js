@@ -342,16 +342,21 @@ function initRegisterPage() {
         event.preventDefault();
 
         const usernameInput = document.getElementById('registerUsername');
+        const emailInput = document.getElementById('registerEmail');
         const passwordInput = document.getElementById('registerPassword');
         const confirmInput = document.getElementById('registerConfirm');
 
         const username = usernameInput ? usernameInput.value.trim() : '';
+        const email = emailInput ? emailInput.value.trim() : '';
         const password = passwordInput ? passwordInput.value : '';
         const confirmPassword = confirmInput ? confirmInput.value : '';
 
         const issues = [];
         if (!username) {
             issues.push('Username is required.');
+        }
+        if (!email) {
+            issues.push('Email is required.');
         }
         if (!password) {
             issues.push('Password is required.');
@@ -386,6 +391,7 @@ function initRegisterPage() {
         try {
             const payload = {
                 username,
+                email,
                 password,
                 confirm_password: confirmPassword,
                 face_image: snapshot
