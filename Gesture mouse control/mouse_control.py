@@ -75,7 +75,7 @@ while True:
             
             # Checking if both thumb and index are up:
             if (fingers[0]==1 and fingers[1]==1):   
-                len,info=detector.find_dist((x_thumb,y_thumb),(x_index,y_index))
+                len,info=detector.find_dist((x_thumb,y_thumb),(x_index,y_index)) #type: ignore
                 print(len)
 
                 if len<310:
@@ -87,7 +87,7 @@ while True:
             
             # checking if both index and middle finger are up
             if fingers[1]==1 and fingers[2]==1:
-                len_right,info_right=detector.find_dist((x_index,y_index),(x_middle,y_middle)) 
+                len_right,info_right=detector.find_dist((x_index,y_index),(x_middle,y_middle)) #type: ignore
                 
                 # print(len_right)
                 
